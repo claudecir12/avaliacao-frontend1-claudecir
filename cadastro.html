@@ -31,6 +31,43 @@
 
             <form action="#" method="post">
                 <!-- Construa os blocos de fieldset do formulário aqui -->
+
+                <fieldset>
+                    <legend>Dados Pessoais:</legend>
+                    <label for="userName">Nome:</label>
+                    <input type="text" name="userName" required>
+                    <br>
+
+                    <label for="userAge">Idade:</label>
+                <input type="number" name="userAge" required min="12" max="100">
+
+                <br>
+
+                <label for="userBirthDate">Data de Solicitação:</label>
+                <input type="date" name="userBirthDate">
+                <br>
+
+               <label for="userEmail">Email Corporativo:</label>
+                <input type="email" name="userEmail" required>
+                <br>
+
+                <label for="userPhoneNumber">Telefone de plantão:</label>
+                <input type="tel" name="userPhoneNumber" pattern="[0-9]{49}" placeholder="99999999999">
+                <br>
+
+                <label for="userImage">Logotipo da aplicação:</label>
+                <input type="file" accept="image/*" name="userImage">
+                <br>
+
+                <br>
+
+                <fieldset>
+
+                    
+
+
+                </fieldset>
+                </fieldset>
             </form>
         </section>
     </main>
